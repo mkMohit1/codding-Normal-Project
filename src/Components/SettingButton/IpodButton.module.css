@@ -1,0 +1,58 @@
+.ipodContainer {
+  width: 250px;
+  height: 220px;
+  background-color: lightgray;
+  margin: auto;
+}
+.ipod_innerContainer {
+  width: 215px;
+  background-color: white;
+  height: 210px;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px 0;
+}
+.cente_box {
+  background-color: lightgray !important;
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  top: 33%;
+  left: 32.5%;
+  border: none;
+  z-index: 1;
+}
+.btn {
+  background-color: white;
+  outline: none;
+  border-radius: 0%;
+  border: 0px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  color: gray;
+}
+
+
+.top {
+  position: absolute;
+  left: 33.5%;
+  top: 3%;
+}
+.bottom {
+  position: absolute;
+  bottom: 3%;
+  left: 33.5%;
+}
+.left {
+  position: absolute;
+  top: 34%;
+  left: 2%;
+}
+.right {
+  position: absolute;
+  top: 34%;
+  right: 5px;
+}
